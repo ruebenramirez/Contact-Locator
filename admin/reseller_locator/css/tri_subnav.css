@@ -1,0 +1,98 @@
+#p7PMnav {
+	margin: 0;
+	padding:0;
+	border-bottom: 0px solid #DFDFDF;
+}
+#p7PMnav li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#p7PMnav a {
+	display: block;
+	text-decoration: none;
+	background-color: #F2F2F2;
+	padding: 8px 10px;
+	color: #000000;
+	line-height:1;
+	/*border-top-width: 1px;*/
+	border-bottom-width: 1px;
+	/*border-top-style: solid;*/
+	border-bottom-style: solid;
+	/*border-top-color: #2f2f2f;*/
+	border-bottom-color: #DFDFDF;
+	font-weight: bold;
+}
+#p7PMnav ul {
+	margin: 0;
+	padding: 0;
+	z-index: 10000;
+	border: 1px solid #B8B8B8;
+}
+#p7PMnav ul a {
+	background-color: #DCDCDC;
+	color: #000000;
+}
+#p7PMnav a:hover, #p7PMnav a:active, #p7PMnav a:focus {
+	background-color: #F2F2F2;
+	color: #0071BD;
+	letter-spacing: 0.01px;
+}
+#p7PMnav ul a:hover, #p7PMnav ul a:active, #p7PMnav ul a:focus {
+	background-color: #F2F2F2;
+	color: #0073BB;
+	letter-spacing: 0.01px;
+}
+/* ------ the current page marker style ------ */
+#p7PMnav .p7PMmark {
+	font-weight: bold;
+	color: #0073BB;
+}
+#p7PMnav ul .p7PMmark {
+	font-weight: bold;
+	color: #0073BB;
+	background-color: #F2F2F2;
+}
+/* ------ the trigger link styles ------- */
+
+/*the normal trigger link */
+#p7PMnav .p7PMtrg {
+	background-repeat:	no-repeat;
+	background-position: right;
+	color: #000000;
+}
+#p7PMnav .p7PMon {
+	background-color: #F2F2F2;
+	color: #000000;
+}
+#p7PMnav ul .p7PMon {
+	background-color: #F2F2F2;
+	color: #000000;
+}
+/*the submenu classes */
+
+#p7PMnav .p7PMhide {
+	left: -9000px;
+	border: 0;
+}
+#p7PMnav .p7PMshow {
+	left: auto;
+	z-index: 20000 !important;
+}
+#p7PMnav {
+	width: 100%;
+}
+/* 2nd and subsequent Submenu widths */
+#p7PMnav ul {
+	width: 190px;
+	margin: 0;
+}
+#pmmcrumb {
+	font-weight: bold;
+	margin: 0 0 16px 16px;
+	color: #0066CC;
+}
+#pmmcrumb a {
+	font-weight: normal;
+	color: #0066FF;
+}

@@ -1,0 +1,198 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: .8em;
+	background-image: url(../images/background_tile.jpg);
+	background-color: #7D8695;
+	background-repeat: repeat-x;
+}
+/*reseller locator output listings*/
+.reseller {
+    padding: 2em;
+    background-color: white;
+}
+
+.elite {
+    /*background-color: lightgray;*/
+}
+
+body {
+    /*background-color: #faa;*/
+}
+
+/*add and edit forms*/
+.label {
+	clear: both;
+    text-align: right;
+    width: 9em;
+    float: left;
+}
+
+.formInput {
+    float: left;
+    padding-left: .25em;
+}
+
+.value {
+    float: left;
+    padding-left: .25em;
+}
+
+.resellerProductListing {
+	clear: both;
+	padding-left: 9.25em;
+}
+.resellerProductListing a img {
+	border: none;
+}
+.eliteImage {
+	float: left;
+	clear: both;
+}
+
+
+
+
+/* alpha nav*/
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	display: inline;
+	padding-left: 1.25em;
+}
+
+/*admin: reseller listings */
+.admin_reseller_listing {
+	clear: both;
+	width: 45em;
+}
+.admin_reseller_name {
+	float: left;
+	padding-bottom: 1.25em;
+	text-align: right;
+	width: 12em;
+}
+.admin_reseller_delete {
+	float: left;
+	padding-left: 1.25em;
+}
+.admin_reseller_edit {
+	float: left;
+	padding-left: 1.25em;
+}
+
+/*admin: product listings*/
+.product_listing {
+    clear: both;
+    width: 45em;	
+}
+
+.product_name {
+    float: left;
+	padding-bottom: 1.25em;
+	text-align: right;
+	width: 12em;
+}
+
+.product_delete {
+    float: left;
+	padding-left: 1.25em
+}
+
+.product_edit {
+    float: left;
+	padding-left: 1.25em
+}
+
+/* admin: territory listings */
+.territory_listing {
+	clear: both;
+	width: 45em;
+}
+.territory_name {
+	float: left;
+	text-align: right;
+	padding-bottom: 1.25em;
+	width: 12em;
+}
+.territory_edit {
+	float: left;
+	padding-left: 1.25em;
+}
+.territory_delete {
+	float: left;
+	padding-left: 1.25em;
+}
+.column {
+	float: left;
+	padding-left: 1.25em;
+}
+.submit {
+	clear: both;
+	float: left;
+	margin-top: .75em;
+	padding-left: 7.25em; 
+	padding-bottom: .75em;
+}
+
+.validation_error {
+	clear: both;
+	color: red;
+	background-color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+/*information table styles*/
+
+#mytable {
+	float: left;
+	clear: both;
+	padding: .65em;
+	font-size: 14px;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	background-color: black;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+.leftCol {
+	border-left: 1px solid black;
+}
+
+td {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+	color: black;
+	font-size: .75em;
+}
+
+
+td.alt {
+	background: #ccc;
+	color: #797268;
+}
+
+

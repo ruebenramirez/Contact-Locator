@@ -4,7 +4,7 @@ Current state
 
 	* custom PHP admin interface + customer facing interface
 	* Contact-Locator originated from a module I wrote to help a company display reseller listings by entering a US zip code, or International Country, with specific product filter selections.
-
+	* on add new contact, check entered address via Google Maps plugin
 
 ---------------------------------------------------
 New Features to develop
@@ -25,6 +25,9 @@ I would also like to allow for additional search criteria to become a dynamic ad
 	* create an admin module to define lookup filters (including datatypes used)
 	* create an admin module to design the client facing fields/UI
 
+More admin stuff
+	* allow users to upload and modify images per contact, or per contact grouping
+	* allow users to input their own Google Maps API key (via the admin interface)
 
 ---------------------------------------------------
 Codebase changes - refactoring and such

@@ -1,0 +1,10 @@
+Contact-Locator originated from a module I wrote to help a company display reseller listing information by entering a zip code.
+
+Ideally I would like to extend this code to allow users to find contacts based on entry of:
+* phone number (listing of contacts by phone area code lookup mapped to centrilized geo-coordinates)
+* State
+* International Country
+* International Zip code
+* US City
+* International City
+

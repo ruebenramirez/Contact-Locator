@@ -1,6 +1,17 @@
-Contact-Locator originated from a module I wrote to help a company display reseller listing information by entering a zip code.
+---------------------------------------------------
+Current state
+---------------------------------------------------
 
-Ideally I would like to extend this code to allow users to find contacts based on entry of:
+* custom PHP admin interface + customer facing interface
+* Contact-Locator originated from a module I wrote to help a company display reseller listings by entering a US zip code, or International Country, with specific product filter selections.
+
+
+---------------------------------------------------
+New Features to develop
+---------------------------------------------------
+
+
+I would like to extend this code to allow users to find contacts based on entry of:
 * phone number (listing of contacts by phone area code lookup mapped to centrilized geo-coordinates)
 * State
 * International Country
@@ -8,3 +19,18 @@ Ideally I would like to extend this code to allow users to find contacts based o
 * US City
 * International City
 
+
+I would also like to allow for additional search criteria to become a dynamic admin filter mechanism
+* abstract logic from product specific lookup filters to generic lookup filters (of different datatypes)
+* create an admin module to define lookup filters (including datatypes used)
+* create an admin module to design the client facing fields/UI
+
+
+---------------------------------------------------
+Codebase changes - refactoring and such
+---------------------------------------------------
+
+
+Migrate OOP code base into an MVC deployment
+* research Joomla module
+* research CodeIgniter

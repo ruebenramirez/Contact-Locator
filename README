@@ -3,7 +3,7 @@ Current state
 ---------------------------------------------------
 
 	* custom PHP admin interface + customer facing interface
-	* Contact-Locator originated from a module I wrote to help a company display reseller listings by entering a US zip code, or International Country, with specific product filter selections.
+	* Contact-Locator originated from a module I wrote to help a client display reseller listings by entering a US zip code, or International Country, with specific product filter selections.
 	* on add new contact, check entered address via Google Maps plugin
 
 ---------------------------------------------------
@@ -38,3 +38,12 @@ Migrate OOP code base into an MVC deployment
 	* implement some kind of free-standing security (so that the code can live on it's own for the time being)
 	* research Joomla module composition from a free-form module
 	* research CodeIgniter
+
+
+---------------------------------------------------
+ROADMAP
+---------------------------------------------------
+	* make the code generic
+	* port the code into a CodeIgniter module
+	* port the code into a Joomla module
+
